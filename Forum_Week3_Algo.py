@@ -29,6 +29,6 @@ else:
     else: 
         print(f"This improper fraction can be reduced to {Fraction(numerator, denominator)}")
     if denominator//gcd == 1 or denominator == 1 or (newNumerator)%(newDenominator) == 0:
-        print(f"The whole number is {numerator//gcd}")
+        print(f"The whole number is {newNumerator}")
     else:
         print(f"The mixed number is {numerator//denominator} and {(newNumerator)%(newDenominator)}/{newDenominator}")
